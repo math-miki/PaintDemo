@@ -44,11 +44,7 @@ class PaintViewController: UIViewController {
         }
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        
-        // OKボタンを追加
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        
-        // UIAlertController を表示
         self.present(alert, animated: true, completion: nil)
     }
 }

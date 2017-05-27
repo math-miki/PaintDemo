@@ -44,13 +44,4 @@ class CanvasImageView: UIView {
     
     
 }
-//    
-//    override func touchesMoved(touches: NSSet, withEvent event: UIEvent) {
-//        var newPoint = (touches.anyObject() as AnyObject).location(self)
-//        pathes.append(Line(start: startPoint, end: newPoint!))
-//        startPoint = newPoint
-//        
-//        self.setNeedsDisplay()
-//        
-//    }
 
