@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211D28B51ED9BF0B000C0F51 /* PaintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211D28B41ED9BF0B000C0F51 /* PaintViewController.swift */; };
 		21695C271ED96E260035CA96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21695C261ED96E260035CA96 /* AppDelegate.swift */; };
 		21695C291ED96E260035CA96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21695C281ED96E260035CA96 /* ViewController.swift */; };
 		21695C2C1ED96E260035CA96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21695C2A1ED96E260035CA96 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		21695C311ED96E260035CA96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21695C2F1ED96E260035CA96 /* LaunchScreen.storyboard */; };
 		21695C3C1ED96E260035CA96 /* integrateImagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21695C3B1ED96E260035CA96 /* integrateImagesTests.swift */; };
 		21695C471ED96E260035CA96 /* integrateImagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21695C461ED96E260035CA96 /* integrateImagesUITests.swift */; };
+		21695C551ED991D50035CA96 /* CanvasImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21695C541ED991D50035CA96 /* CanvasImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		211D28B41ED9BF0B000C0F51 /* PaintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintViewController.swift; sourceTree = "<group>"; };
 		21695C231ED96E260035CA96 /* integrateImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = integrateImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21695C261ED96E260035CA96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21695C281ED96E260035CA96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		21695C421ED96E260035CA96 /* integrateImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = integrateImagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21695C461ED96E260035CA96 /* integrateImagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = integrateImagesUITests.swift; sourceTree = "<group>"; };
 		21695C481ED96E260035CA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21695C541ED991D50035CA96 /* CanvasImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				21695C261ED96E260035CA96 /* AppDelegate.swift */,
 				21695C281ED96E260035CA96 /* ViewController.swift */,
 				21695C2A1ED96E260035CA96 /* Main.storyboard */,
+				211D28B41ED9BF0B000C0F51 /* PaintViewController.swift */,
 				21695C2D1ED96E260035CA96 /* Assets.xcassets */,
 				21695C2F1ED96E260035CA96 /* LaunchScreen.storyboard */,
 				21695C321ED96E260035CA96 /* Info.plist */,
+				21695C541ED991D50035CA96 /* CanvasImageView.swift */,
 			);
 			path = integrateImages;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				21695C291ED96E260035CA96 /* ViewController.swift in Sources */,
 				21695C271ED96E260035CA96 /* AppDelegate.swift in Sources */,
+				21695C551ED991D50035CA96 /* CanvasImageView.swift in Sources */,
+				211D28B51ED9BF0B000C0F51 /* PaintViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +515,7 @@
 				21695C4D1ED96E260035CA96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21695C4E1ED96E260035CA96 /* Build configuration list for PBXNativeTarget "integrateImagesTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				21695C501ED96E260035CA96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21695C511ED96E260035CA96 /* Build configuration list for PBXNativeTarget "integrateImagesUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				21695C531ED96E260035CA96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
